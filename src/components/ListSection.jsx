@@ -12,7 +12,7 @@ export default function RenderListSection({
         className={`list-item ${i === selectedIndex ? "selected" : ""}`}
         onClick={() => onItemSelect(i)}
       >
-        <img className="img-center" src={`public/character/${name}/${i}.png`} />
+        <img className="img-center" src={`/character/${name}/${i}.png`} />
       </div>
     );
   }
