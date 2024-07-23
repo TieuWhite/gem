@@ -1,6 +1,6 @@
 import "./App.css";
-import Avatar from "../components/partlist/avatar.jsx";
-import RenderListSection from "../components/partlist/ListSection.jsx";
+import Avatar from "./components/avatar.jsx";
+import RenderListSection from "./components/ListSection.jsx";
 
 import { useState } from "react";
 
